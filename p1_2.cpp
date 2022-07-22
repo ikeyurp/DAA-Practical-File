@@ -15,7 +15,9 @@ void gcd(int a, int b){
 }
 
 int main(){
-    int a = 10, b = 15;
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
     gcd(a, b);
     return 0;
 }
